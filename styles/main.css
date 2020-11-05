@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    background-color: #30303D;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+    Estilos para la barra de navegacion
+        1. Root
+        2. Lista de secciones Root
+        3. Items de la lista
+        4. Hover de los Items
+*/
+
+.topbar_root {
+    margin: 75px auto;
+    width: 1000;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 132px;
+}
+
+.topbar_root ul {
+    width: 30%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar_item {
+    margin-right: 50px;
+}
+
+.topbar_item a {
+    text-decoration: none;
+    color: #E5E5E5;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.topbar_item a:hover {
+    color: #FFBB3A;
+    cursor: pointer;
+}
+
+/*
+    Estilos para footer
+        1. Root
+        2. Lista de secciones Root
+        3. Items de la lista
+        4. Hover de los Items
+*/
+
+.footer_root {
+    background-color: #202028;
+    margin-top: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 100px 0;
+}
+
+.footer_root h4 {
+    background-color: transparent;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: center;
+}
+
+.footer_root ul {
+    margin-top: 40px;
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_item {
+    background-color: transparent;
+}
+
+.footer_item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.footer_item a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footer_item img {
+    background-color: transparent;
+}
+
+.footer_item a:hover {
+    cursor: pointer;
+}

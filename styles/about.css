@@ -1,0 +1,254 @@
+
+/* CSS el contenedor principal */
+.root {
+    margin-top: 130px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 44px;
+    color: #E5E5E5;
+}
+
+/* CSS para todo lo que incluye la BIO */
+
+.bio {
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.bio p {
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+.bio h1 {
+    margin-bottom: 75px;
+}
+
+#name, #link_portfolio {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #E5E5E5;
+    letter-spacing: 0.05em;
+    margin-left: 6px;
+}
+
+#link_portfolio:hover {
+    color: #FFBB3A;
+}
+
+/* CSS para todo lo que incluye las SKILLS */
+.skills_root {
+    margin-top: 150px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.skill_content {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill_card {
+    width: 485px;
+    height: 508px;
+    background: #202028;
+    border-radius: 25px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+
+.skill_card:not(:last-child) {
+    margin-right: 30px;
+}
+
+.skill_card h4 {
+    background-color: transparent;
+    margin-left: 31px;
+    margin-top: 52px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.07em;
+
+    color: #FFFFFF;
+}
+
+.skill_stats {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 36px 31px 15px 31px;
+}
+
+.stat {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stat h5 {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.bar {
+    background-color: transparent;
+    width: 246px;
+    height: 8px;
+
+    background: #8D8D93;
+    border: 2px solid #8D8D93;
+    border-radius: 25px;
+}
+
+.progress {
+    background-color: transparent;
+    height: 8px;
+
+    background: #FFBB3A;
+    border-radius: 25px;
+}
+
+/* CSS para todo lo que incluye las EXPERIENCES */
+.experiences_root {
+    margin-top: 150px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experience_card {
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 843px;
+    height: 300px;
+    background: #202028;
+    color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    padding: 5px 24px;
+}
+
+.experience_content {
+    width: 70%;
+    background-color: transparent;
+}
+
+.experience_content h6 {
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+.experience_content h4 {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+
+.experience_content p {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+/* CSS para todo lo que incluye las STUDIES */
+.studies_root {
+    margin-top: 150px;
+    margin-bottom: 250px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.studies_content {
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 650px 650px;
+    gap: 5px;
+}
+
+.study_card {
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    width: 551px;
+    height: 148px;  
+    background: #202028;
+    color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+    padding: 5px 19px;
+}
+
+.study_content {
+    background-color: transparent;
+}
+
+.study_content h6 {
+    background-color: transparent;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+.study_content h4 {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+
+.logo {
+    background-color: transparent;
+    margin: 0 50px
+}
+
+.logo img {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}

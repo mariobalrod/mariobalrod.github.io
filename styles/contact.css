@@ -1,0 +1,37 @@
+.root {
+    background: #202028;
+    width: 50%;
+    height: 500px;
+    margin: 180px auto;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.root h1 {
+    background: transparent;
+    margin-top: 100px;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.root ul {
+    background: transparent;
+    margin-top: 130px;
+    margin-bottom: 400px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.root img {
+    background: transparent;
+    width: 60px;
+    height: 60px;
+}
