@@ -252,3 +252,80 @@ h2 {
     width: 50px;
     height: 50px;
 }
+
+/*
+    RESPONSIVE ABOUT
+*/
+@media screen and (max-width: 1500px) {
+    /* SKILLS */
+    .skill_content {
+        margin: 60px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill_card:not(:last-child) {
+        margin-right: auto;
+    }
+
+    .skill_card {
+        margin: 25px auto;
+    }
+
+    .skill_card {
+        width: 435px;
+    }
+
+    /* ESTUDIOS */
+    .studies_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .study_card {
+        width: 400px;
+    }
+
+    /* EXPERIENCES */
+
+    .experience_card {
+        width: 400px;
+        height: auto;
+        margin: 50px auto;
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    
+    .experience_content {
+        text-align: center;
+        margin-top: 35px
+    }
+    
+    .experience_content h6 {
+        background-color: transparent;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        margin-bottom: 10px;
+    }
+    
+    .experience_content h4 {
+        background-color: transparent;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 27px;
+        margin-bottom: 18px;
+    }
+    
+    .experience_content p {
+        background-color: transparent;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0.01em;
+    }
+}

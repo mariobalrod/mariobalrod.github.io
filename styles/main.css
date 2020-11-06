@@ -25,10 +25,9 @@
     padding: 0 132px;
 }
 
-.topbar_root ul {
-    width: 40%;
-    list-style: none;
+.topbar_root .items {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
 }
@@ -38,6 +37,7 @@
 }
 
 .topbar_item a {
+    width: 100px;
     text-decoration: none;
     color: #E5E5E5;
     font-size: 16px;
@@ -110,3 +110,19 @@
 .footer_item a:hover {
     cursor: pointer;
 }
+
+/*
+    RESPONSIVE MAIN
+*/
+@media screen and (max-width: 1000px) {
+    /* TOPBAR */
+    .topbar_root {
+        flex-direction: column;
+    }
+    .topbar_root .items {
+        margin-top: 50px;
+    }
+    .topbar_item {
+        margin: 20px;
+    }
+  }

@@ -32,6 +32,36 @@
 
 .root img {
     background: transparent;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+}
+
+/*
+    RESPONSIVE CONTACT
+*/
+@media screen and (max-width: 1000px) {
+    .root {
+        min-width: 400px;
+    }
+    .root h1 {
+        background: transparent;
+        margin-top: 150px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .root ul {
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+
+    .root img {
+        background: transparent;
+        width: 30px;
+        height: 30px;
+    }
 }

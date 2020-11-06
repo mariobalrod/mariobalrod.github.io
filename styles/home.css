@@ -34,3 +34,34 @@
 .root img {
     margin: 0 auto;
 }
+
+/*
+    RESPONSIVE HOME
+*/
+@media screen and (max-width: 1000px) {
+    .root h1 {
+        margin-top: 20px;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 66px;
+        color: #FFFFFF;
+    }
+    
+    .root h2 {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 38px;
+        color: #E5E5E5;
+    }
+    
+    .root h3 {
+        margin-top: 15px;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        color: #E5E5E5;
+    }    
+}
