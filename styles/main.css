@@ -50,6 +50,10 @@
     color: #FFBB3A;
     cursor: pointer;
 }
+.items {
+    display: flex;
+    align-items: center;
+}
 
 /*
     Estilos para footer
